@@ -1,0 +1,5 @@
+Q: What happens when you initialize a repository? Why do you need to do it?
+A: To let git know to ready to track files and commits thereafter 
+
+Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
+A: Staging allows how to track one or a group of file together for commit. It allows user to choose to group files to track and change and commit.
