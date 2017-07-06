@@ -3,3 +3,19 @@ A: To let git know to ready to track files and commits thereafter
 
 Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
 A: Staging allows how to track one or a group of file together for commit. It allows user to choose to group files to track and change and commit.
+
+Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+A: to try something new, (which suntantially chages how the code behaves) while keep the original version untouched.
+for example, adding a experimental feaure to a game (not just bug fixing or adding documentations)
+
+Q: How do the diagrams help you visualize the branch structure?
+A: it provides a tree structure that link all barnaced and commits to the root.
+
+Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+A: merging take all changes from branches and combine into single commit/ snapshot all files in the repository.
+
+Q: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+A: Pros are don't have to find identical and different parts manually
+   cons is the merged code/project may not run
+   
+   Manual process is often tediuos; but will run since user is resposible for merge and resolve code conflicts, if arised!

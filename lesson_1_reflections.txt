@@ -1,9 +1,21 @@
-Questions: How did viewing a diff between two versions of a file help you see the bug that was introduced?
+Refelctions: I write code/scripts to do smo task
+often I need to modify the codes for making more robust/versatile, perform additional task, chage input/output type;
+even transform the code into a different one intended for different application.
 
-Answer: can track what difference made in two versions of a text file. using diff command: diff old_file new_file
+Over time its' hard to keep track of the different versions that I have produced and need a lots' of comments to explaning what chand from a version to next
+Keeping old version copies is also difficult to maintain. 
+Again after modification, sometimes new modified codes doesn't work as expected or become buggy its hard to manualy check for each modification and
+look for any potential error.
+
+Need a better version control system, git maybe!
+
+Questions: How did viewing a diff between two versions of a file help you see the bug that was introduced?
+Answer: can track what difference made in two versions of a text file. using diff command: diff -u old_file new_file
+"-u" stands for unified viewing
 
 Q: How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
 A: I can track what changes I have made thoughut the developing process and easily go back to an earlier version.
+In addition, I can see how a code/project is evolved over time/versions.
 
 Q: What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
 A: I have the control when to add a commit (as a markpoint) and I can add description of the changes made.
@@ -17,4 +29,9 @@ A: log > to see the commits (chages made in same project/code) and diff > exactl
 Q: How might using version control make you more confident to make changes that could break something?
 A: I can always revert back to an earlier working version
 
+Q: How can you use the staging area to make sure you have one commit per logical change?
+A: before commit: use "git diff --staged" to compare changes made to current file to most recent commit.
 
+-----------------------------------------------------------------------------------------------
+
+   

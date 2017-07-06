@@ -1,0 +1,2 @@
+Question: What is the benefit of having a copy of the last known state of the remote stored locally?
+Answer: can use Fat-forward merge| onnce commits are made on the same branch, they can be synched to local using git pull/push
